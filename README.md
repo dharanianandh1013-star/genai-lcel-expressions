@@ -18,6 +18,7 @@ Create a prompt with two parameters and initialize the model and output parser.
 Connect the components using the LCEL pipe operator (`|`) and execute the chain.
 
 ## PROGRAM:
+```
 import os
 import openai
 
@@ -45,7 +46,7 @@ response = chain.invoke({
 
 print("Generated Summary:")
 print(response)
-
+```
 ## OUTPUT:
 
 <img width="1312" height="680" alt="image" src="https://github.com/user-attachments/assets/e303f991-7231-44f4-9e6d-762c01ae3be1" />
